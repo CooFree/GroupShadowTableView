@@ -11,13 +11,14 @@
 
 @interface UIView (Add)
 
+//设置圆角
 - (void)setCornerRadius:(CGFloat)radius withShadow:(BOOL)shadow withOpacity:(CGFloat)opacity;
 
 @end
 
 @implementation UIView (Add)
 
-
+//设置圆角
 - (void)setCornerRadius:(CGFloat)radius withShadow:(BOOL)shadow withOpacity:(CGFloat)opacity {
     self.layer.cornerRadius = radius;
     if (shadow) {
