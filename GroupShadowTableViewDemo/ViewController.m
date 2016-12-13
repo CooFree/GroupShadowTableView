@@ -34,7 +34,7 @@
 
 //MARK: - GroupShadowTableViewDataSource
 - (NSInteger)numberOfSectionsInGroupShadowTableView:(GroupShadowTableView *)tableView {
-    return 4;
+    return 5;
 }
 
 - (NSInteger)groupShadowTableView:(GroupShadowTableView *)tableView numberOfRowsInSection:(NSInteger)section {
